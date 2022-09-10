@@ -1,0 +1,70 @@
+body
+{
+    /* Background */
+    background-image: url('../img/dashboard.gif');
+    background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.code-container
+{
+    /* Position */
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+
+    /* Text */
+    text-align:center;
+}
+
+.password-input
+{
+    /* Background */
+    background-image: url('../img/matrix.gif');
+
+    /* Position */
+    padding: 1.5vw;
+    width: 80%;
+
+    /* Border */
+    border: 2px solid rgb(42, 208, 254);
+    border-radius: 15px;
+
+    /* Text */
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size: 1.5vw;
+}
+
+.deactivate-button
+{
+    /* Background */
+    background-color: rgb(217, 40, 40);
+
+    /* Position */
+    padding: 1vw;
+    margin: 10px; 
+    width: 80%;
+
+    /* Border */
+    border: 2px solid rgb(135, 1, 1);
+    border-radius: 15px;
+
+    /* Cursor */
+    cursor: pointer; 
+
+    /* Text */
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size: 1.5vw;
+}
+.deactivate-button:hover
+{
+    /* Overall */
+    opacity: 0.7; 
+}

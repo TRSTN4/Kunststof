@@ -1,0 +1,120 @@
+body
+{
+    /* Background */
+    background-image: url('../img/matrix_bg.gif');
+    background-size: 100%;
+}
+
+.retry-container
+{
+    /* Text */
+    text-align:center;
+}
+
+.retry-button
+{ 
+    /* Background */
+    background-image: url('../img/matrix.gif');
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    /* Border */
+    border: 2px solid rgb(2, 72, 18);
+    border-radius: 25px;
+
+    /* Cursor */
+    cursor: pointer; 
+
+    /* Text */
+    color: rgb(26, 149, 30);
+    text-align:center;
+    font-size: 1.5vw;
+    padding: 1vw;
+
+    /* Animation */
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    animation-name: button-appear-frames;
+}
+.retry-button:hover
+{
+    /* Overall */
+    opacity: 0.7; 
+}
+
+.text-loading-container
+{
+    /* Animation */
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    animation-name: loading-text-frames;
+
+    /* Text */
+    font-family: Calibri, Helvetica, sans-serif;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.loading-container
+{
+    /* Background */
+    background-image: url('../img/cross.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20vw;
+
+    /* Animation */
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    animation-name: loading-frames;
+
+    /* Position */
+    padding-top: 40vw;
+    margin: auto;
+}
+
+@keyframes loading-text-frames
+{
+    0%, 50%, 100%
+    {
+        /* Text */
+        color: rgb(255, 0, 0);
+    }
+    25%, 75%
+    {
+        /* Text */
+        color: rgb(157, 0, 0);
+    }
+}
+
+@keyframes loading-frames
+{
+    0%, 100%
+    {
+        /* Background */
+        background-image: url('../img/loading.gif');
+    }
+}
+
+@keyframes button-appear-frames
+{
+    0%, 100%
+    {
+        /* Background */
+        background-color: transparent;
+        background-image: none;
+        
+        /* Border */
+        border: transparent;
+
+        /* Cursor */
+        cursor: default;
+
+        /* Text */
+        color: transparent;
+    }
+}
