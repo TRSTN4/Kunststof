@@ -6,10 +6,10 @@ function checkCode()
     // Checks if the value is equal to the required codeword.
     if(nameValue == "doktor beta heeft nog nooit in zijn leven geklommen") {
         // Redirects to the 'success.html' file.
-        window.location = "success";
+        window.location = "success.html";
     }
     else {
         // Redirects to the 'failed.html' file.
-        window.location = "failed";
+        window.location = "failed.html";
     }
 }

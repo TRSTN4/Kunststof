@@ -6,10 +6,10 @@ function checkLogin()
     // Checks if the value is equal to the required username.
     if(nameValue == "doktor beta") {
         // Redirects to the 'code.html' file.
-        window.location = "code";
+        window.location = "code.html";
     }
     else {
         // Redirects to the 'login.html' file.
-        window.location = "login";
+        window.location = "login.html";
     }
 }
